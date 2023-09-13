@@ -1,20 +1,63 @@
-body {    
-    h1,h2 {
+html {
+    height: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+
+    #parallax-wrapper {
+        perspective: 1px;
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+      .parallax__layer {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+      .parallax__layer--front {
+        transform: translateZ(0);
+      }
+      .parallax__layer--back {
+        transform: translateZ(-2px) scale(3);
+        height: 230%;
+        background-image: url("./images/background.jpg");
+        background-position: center;
+        background-size: cover;
+      }
+
+    h1 {
+        padding-top: 50px;
         color: #b368aa;
         text-align: center;
     }
-    font-family: sans-serif;
-    
-    #content {
-        align-items: center;
-        float: center;
-        width: 60pc;
-    }
-    #border {
-        float: left;
-        width: 30pc;
+
+    h2 {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        color: #b368aa;
+        text-align: center;
     }
 
+    font-family: sans-serif;
+
+    #content-wrapper {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.0));
+        padding-bottom: 5%;
+    }
+    
+    #content {
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-top: 10px;
+    }
+    
     table {
         color: #b368aa;
         font-size: large;
@@ -23,14 +66,12 @@ body {
     a:link {
         color: #b368aa;
     }
+
     a:visited {
         color: #663b61;
-    }    
+    }
+
     a:active {
         color: #ff94f2;
     }
-}
-
-footer {
-    padding-top: 20px;
 }
