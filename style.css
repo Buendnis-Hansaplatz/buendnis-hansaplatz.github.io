@@ -45,6 +45,10 @@ body {
         margin-right: auto;
     }
 
+    td {
+        padding-bottom: 10px;
+    }
+
     a:link {
         color: #b368aa;
     }
