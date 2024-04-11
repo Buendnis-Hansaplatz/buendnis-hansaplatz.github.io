@@ -20,6 +20,13 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #a3569a;
+    text-align: center;
+}
+
 table {
     padding-top: 50px;
     color: #a3569a;
