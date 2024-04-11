@@ -55,6 +55,17 @@ body {
     color: whitesmoke;
 }
 
+.language-selection {
+    position: fixed;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.icon-language-selection {
+    height: 40px;
+    width: 40px;
+}
+
 .content-wrapper {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.0));
     padding-bottom: 5%;
@@ -94,5 +105,9 @@ body {
         background-position: right 10% bottom;
         background-repeat: no-repeat;
         background-size: 100%;
+    }
+
+    .language-selection-s {
+        position: static;
     }
 }
