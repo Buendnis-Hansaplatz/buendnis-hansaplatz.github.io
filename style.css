@@ -1,0 +1,36 @@
+body {    
+    h1,h2 {
+        color: #b368aa;
+        text-align: center;
+    }
+    font-family: sans-serif;
+    
+    #content {
+        align-items: center;
+        float: center;
+        width: 60pc;
+    }
+    #border {
+        float: left;
+        width: 30pc;
+    }
+
+    table {
+        color: #b368aa;
+        font-size: large;
+    }
+
+    a:link {
+        color: #b368aa;
+    }
+    a:visited {
+        color: #663b61;
+    }    
+    a:active {
+        color: #ff94f2;
+    }
+}
+
+footer {
+    padding-top: 20px;
+}
