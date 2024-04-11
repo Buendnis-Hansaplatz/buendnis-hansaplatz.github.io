@@ -45,7 +45,6 @@ a:active {
 }
 
 body {
-    /* background-image: url("./images/background.jpg"); */
     background-image: url("./images/background_cameras_violet.png");
     background-color: black;
     background-position: right 10% bottom;
@@ -89,5 +88,11 @@ body {
     .content-wrapper-s {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.2));
         padding-bottom: 5%;
+    }
+
+    .body-s {
+        background-position: right 10% bottom;
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
 }
