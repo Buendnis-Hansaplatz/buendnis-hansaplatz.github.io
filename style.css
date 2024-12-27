@@ -48,6 +48,14 @@ td {
     padding-bottom: 10px;
 }
 
+ul {
+    padding: 20px;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
 a:link {
     color: #dedaff;
 }
